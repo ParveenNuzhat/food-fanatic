@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.welcome-container{
+    display: flex;
+    margin: 20px 40px 60px;
+}
+
+.heading{
+    font-size: 65px;
+    font-weight:900;
+}
+
+.sub-heading{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.line-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.half-width{
+    width: 50%;
+    padding: 40px; 
+}
+
+.half-width img{
+    height: 400px;
+    width: 500px; 
+    padding-right: 20px;
+}
+
+.intro-section{
+    display: flex;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+#recipe-sec{
+    margin: 60px;
+}
+
+.blog-title{
+    text-align: center;
+}
+
+.blog-menu{
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.recipe-list img{
+    height: 65%;
+}
+
+.bonus-section{
+    margin: 60px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(53, 145, 30), lightgreen);
+    box-shadow: 10px 10px 40px grey;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #0B0D17;
+}
+
+footer p{
+    font-weight: 400;
+}
