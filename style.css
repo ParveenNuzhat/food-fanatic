@@ -20,8 +20,7 @@ body{
 
 .line-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    
+    background-image: linear-gradient(orange, tomato);   
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -30,45 +29,92 @@ body{
 
 .half-width{
     width: 50%;
-    padding: 40px; 
+    padding: 4%;   
 }
 
+
 .half-width img{
-    height: 400px;
-    width: 500px; 
-    padding-right: 20px;
+    height: 450px;
+    width: 450px; 
+    padding: 40px 60px;
+    
 }
 
 .intro-section{
     display: flex;
     background-image: url(./images/shapes/7.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
+    background-size: cover;
 }
 
-#recipe-sec{
-    margin: 60px;
+
+.recipe-list{
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 40px lightgrey;
+    width: 50%;
+    margin: 1em;
+}
+
+.img-container{
+    margin-top: 25px;
+    width: 100%;
+    height: auto; 
+}
+
+.img-container img{
+    border-radius: 25px;
+}
+
+.detail-container{
+    padding: 10px 10px;
+}
+
+.detail-container p{
+    padding: 10px 10px;
 }
 
 .blog-title{
     text-align: center;
+    margin: 60px auto;
+    width: 50%;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .blog-menu{
     display: flex;
-    margin-top: 35px;
-    width: 100%;
-}
-
-.recipe-list img{
-    height: 65%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .bonus-section{
-    margin: 60px;
+    width: 60%;
+    margin: 60px auto;
     padding: 15px 50px;
     border-radius: 10px;
     background-image: linear-gradient(rgb(53, 145, 30), lightgreen);
     box-shadow: 10px 10px 40px grey;
+}
+
+.subscribe{
+    text-align: center;
+    width: 80%;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(cyan, lightskyblue);
+}
+
+.sign-up{
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-color: orange;
 }
 
 footer{
